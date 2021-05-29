@@ -1,0 +1,500 @@
+/* ---------------------------------------------- /*
+ * Default Settings
+/* ---------------------------------------------- */
+@import url("../css/bootstrap.css");
+@import url("../css/responsive.css");
+@import url("../css/animate.css");
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet");
+
+@font-face {
+  font-family: "HelveticaNeueLTPro-BdCn";
+  src: url("../css/fonts/HelveticaNeueLTPro-BdCn.eot"); /* IE9 Compat Modes */
+  src: url("../css/fonts/HelveticaNeueLTPro-BdCn.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../css/fonts/HelveticaNeueLTPro-BdCn.otf") format("opentype"), /* Open Type Font */
+    url("../css/fonts/HelveticaNeueLTPro-BdCn.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../css/fonts/HelveticaNeueLTPro-BdCn.woff") format("woff"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url("../css/fonts/PlayfairDisplay-Regular.eot") format("embedded-opentype"),url("../css/fonts/PlayfairDisplay-Regular.woff") format("woff"),url("../css/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: HelveticaNeue-CondensedBold;
+    src: url("../css/fonts/HelveticaNeueLTPro-XBlkCn.eot") format("embedded-opentype"),url("../css/fonts/HelveticaNeueLTPro-XBlkCn.woff") format("woff"),url("../css/fonts/HelveticaNeueLTPro-XBlkCn.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Helvetica Neue;
+    src: url("../css/fonts/HelveticaNeueLTPro-LtCn.eot") format("embedded-opentype"),url("../css/fonts/HelveticaNeueLTPro-LtCn.woff") format("woff"),url("../css/fonts/HelveticaNeueLTPro-LtCn.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e9e9e9;
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.cerceve {
+	width: 88% !important;
+   	padding-right: 15px;
+  	padding-left: 15px;
+  	margin-right: auto;
+ 	margin-left: auto;
+}
+
+#myslider h5{
+  font-size: 45px;
+}
+
+/* ---------------------------------------------- /*
+ * Navbar
+/* ---------------------------------------------- */
+
+.navbar-brand{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: -10px;
+  padding: 0;
+}
+
+nav{
+  margin-top: -15px;
+  font-size: 15px;
+
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  /*list-style-image: url();*/
+}
+
+.nav-item{
+  margin-left: 40px !important;
+}
+.nav-link{
+  margin-left: -20px !important;
+  color: #000 !important;
+  margin-top: 15px;
+
+
+}
+
+.nav-link:hover{
+  
+  color: #009e49 !important;
+
+}
+
+/*  index-content */
+
+#content-index{
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+}
+
+#content-index .p1{
+
+  padding-top: 5%;
+  font-size: 16px;
+  letter-spacing: 2px;
+  width: 70% !important;
+
+ 
+}
+
+#content-index h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+ 
+}
+
+#content-index .p2{
+
+  padding-top: 5px;
+  font-size: 20px;
+  line-height: 28px;
+ 
+}
+
+/* footer */
+
+.container-fluid {
+  background-color: #111;
+}
+
+#footer {
+  color: #bbb;
+  text-transform: uppercase;
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#footer i{
+ 
+ margin-left: 25px;
+ font-size: 18px;
+
+
+
+}
+
+#footer i:hover{
+ 
+ color: #0056B3;
+ 
+}
+
+#footer .maps{
+ 
+ border:solid 1px #3d3d3d;
+ 
+}
+
+#footer a{
+ 
+color: #bbb;
+
+}
+
+/* hakkimizda */
+
+
+
+#hakkimizda h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+#hakkimizda .right {
+  padding-top: 25px;
+  background-repeat: no-repeat;
+  background-size: 70% 100px;
+
+}
+
+#hakkimizda p {
+  font-size: 16px;
+  line-height: 35px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* PROJELER */
+
+#projeler .col-md-3{
+  margin:10px;
+  padding-left: 0;
+  padding-left: 10px;
+}
+
+#projeler .inBorder{
+  border: 2px solid #009e49;
+  position: relative;
+  z-index: 100;
+
+}
+
+#projeler .content{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 100%;
+  border:1px solid #009e49;
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  z-index: 10;
+
+}
+
+#projeler h6{
+  font-size: 22px;
+}
+
+#projeler p{
+  font-size: 17px;
+  letter-spacing: -0.05px;
+  margin-top: -5px;
+}
+/*proje detay */
+
+#projeDetay .bigImg {
+  
+  border:2px solid #009e49;
+  padding: 0;
+}
+
+#projeDetay .right {
+  
+  font-size: 18px;
+}
+
+#projeDetay h3 {
+   
+
+   margin-top: 14%;
+
+}
+
+/* DERSLER */
+
+#dersler .col-md-3{
+  margin:10px;
+  padding-left: 0;
+  padding-left: 10px;
+}
+
+#dersler .inBorder{
+  border: 1px solid #000;
+  position: relative;
+  border-radius: 2px;
+  z-index: 100;
+
+}
+
+#dersler .content{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 100%;
+  border:1px solid #000;
+  border-radius: 1px;
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  z-index: 10;
+
+}
+
+#dersler h6{
+  font-size: 22px;
+}
+
+#dersler p{
+  font-size: 17px;
+  letter-spacing: -0.05px;
+  margin-top: -5px;
+}
+
+/*proje detay */
+
+#dersDetay .bigImg {
+  
+  border:2px solid #009e49;
+  padding: 0;
+}
+
+#dersDetay .right {
+  
+  font-size: 18px;
+}
+
+#dersDetay h3 {
+   
+
+   margin-top: 2%;
+
+}
+
+/* DUYURULAR */
+
+#duyurular .col-md-3{
+  margin:10px;
+  padding-left: 0;
+  padding-left: 10px;
+}
+
+#duyurular .inBorder{
+  border: 2px solid #009e49;
+  position: relative;
+  z-index: 100;
+
+}
+
+#duyurular .content{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 100%;
+  border:1px solid #009e49;
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  z-index: 10;
+
+}
+
+#duyurular h6{
+  font-size: 22px;
+}
+
+#duyurular p{
+  font-size: 17px;
+  letter-spacing: -0.05px;
+  margin-top: -5px;
+}
+/*proje detay */
+
+#duyuruDetay .bigImg {
+  
+  border:2px solid #009e49;
+  padding: 0;
+}
+
+#duyuruDetay .right {
+  
+  font-size: 18px;
+}
+
+#duyuruDetay h3 {
+   
+
+   margin-top: 14%;
+
+}
+
+/*  İLETİŞİM */
+
+#iletisim .harita{
+  border:1px solid #009e49;
+  padding: 0;
+
+}
+
+#iletisim .right{
+  
+  margin-left: 6%;
+
+  
+}
+
+#iletisim h4{
+  
+  font-size: 40px;
+  
+  
+}
+
+#iletisim p{
+  
+font-size: 17px;
+letter-spacing: -0.06px;
+
+  
+  
+}
+
+#iletisim input{
+  
+border: none;
+border-bottom: 1px solid #000;
+height: 35px;
+border-radius: 0;
+font-size: 12px;
+  
+  
+}
+
+#iletisim a{
+  
+background-color: #000;
+color: #fff;
+border: none;
+border-radius: 0;
+height: 35px;
+width: 45%;
+font-size: 16px;
+margin: auto;
+  
+}
+
+/* ekibimiz */
+
+#ekibimiz{
+
+  padding-top: 80px;
+  padding-bottom: 70px;
+  background-color: #f9f9f9;
+
+}
+.ekibimiz-content .ekibimiz-circle{
+
+   width: 220px;
+   height: 220px;
+   border-radius: 220px;
+   border:2px solid #009e49;
+   margin: 0 auto;
+   margin-bottom: 20px;
+
+}
+
+.ekibimiz-content h4{
+
+   font-size: 16px;
+   font-weight: 900;
+
+
+}
+
+.ekibimiz-content h5{
+
+   font-size: 14px;
+   color:#777;
+
+}
+
+
+.ekibimiz-content .social-icons{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.ekibimiz-content .social-icon{
+    
+    display: inline;
+    
+}
+
+.ekibimiz-content .social-icon .fab{
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border:2px solid #009e49;
+    line-height: 26px;
+
+}
+
+#ekibimiz p{
+
+  margin: 50px auto;
+  font-size: 16px;
+  color:#777;
+
+}
+
+
